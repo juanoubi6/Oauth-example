@@ -177,6 +177,7 @@ func getProjectInfo() ([]byte, error) {
 	return contents, nil
 }
 
+//Checks if the user email is included in the email list of the admin role name we defined
 func checkIfUserIsAdmin(userEmail string, projectData GoogleProjectData)(bool,error){
 
 	var isAdmin bool = false
