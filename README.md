@@ -1,4 +1,4 @@
-# OAUTH EXAMPLE
+# Oauth2 example
 
 Simple google oauth example to check if user email has been given a custom created role in our google project.
 
